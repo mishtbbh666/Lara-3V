@@ -5,27 +5,27 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "Your_Session_Id", // Add your session id
+SESSION_ID: process.env.SESSION_ID || "uBhBzIqD#cXMnSmHmX2Gth3D2uvHe1M4Bmd4IoN39V1N965gC16k", // Add your session id
 PREFIX: process.env.PREFIX || ".",
 MODE: process.env.MODE || "public",  //public | private | inbox | group
-OWNER_NUMBER: process.env.OWNER_NUMBER || "94779062397",
-DEV: process.env.DEV || "94779062397",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "94704207189",
+DEV: process.env.DEV || "94704207189",
 LANG: process.env.LANG || "EN", // EN | SI
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
-AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
-AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
-STATUS_REPLY_MSG: process.env.STATUS_REPLY_MSG || "*_`ᴀᴜᴛᴏ ꜱᴛᴀᴛᴜꜱ ᴊᴜꜱᴛ ɴᴏᴡ ꜱᴇᴇɴ ʙʏ ʟᴀʀᴀ ᴍᴅ`_* 💃🏻",
-AUTO_BIO: process.env.AUTO_BIO || "true",
+AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
+AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
+STATUS_REPLY_MSG: process.env.STATUS_REPLY_MSG || "🤍🥀",
+AUTO_BIO: process.env.AUTO_BIO || "false",
 AUTO_VOICE: process.env.AUTO_VOICE || "true",
 AUTO_STICKER: process.env.AUTO_STICKER || "false",
-AUTO_REPLY: process.env.AUTO_REPLY || "true",    
+AUTO_REPLY: process.env.AUTO_REPLY || "false",    
 AUTO_REACT: process.env.AUTO_REACT || "false",
-CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
+CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
 FAKE_RECORDING: process.env.FAKE_RECORDING || "true",
-AUTO_TYPING: process.env.AUTO_TYPING || "false",
+AUTO_TYPING: process.env.AUTO_TYPING || "true",
 ANTI_LINK: process.env.ANTI_LINK || "true",
-ANTI_BAD: process.env.ANTI_BAD || "true",   
+ANTI_BAD: process.env.ANTI_BAD || "false",   
 ANTI_BOT: process.env.ANTI_BOT || "false",
 ANTI_CALL: process.env.ANTI_CALL || "true",
 BAD_NUMBER_BLOCKER: process.env.BAD_NUMBER_BLOCKER || "false",
